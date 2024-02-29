@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "984EC088-ADDE-4DF6-AFBF-9A7C11F87A49",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CentralizedDependencies.xcodeproj",
+      "identifier" : "324F15282B90D2140019860E",
+      "name" : "CentralizedDependencies"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CentralizedDependencies.xcodeproj",
+        "identifier" : "324F15382B90D2150019860E",
+        "name" : "CentralizedDependenciesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
